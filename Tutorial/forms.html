@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="Register">
+        <p>
+            Ad: <input type="text" name="ad" required>
+        </p>
+        <p>
+            Soyad: <input type="text" name="soyad">
+        </p>
+        <p>
+            Erkek: <input type="radio" name="cinsiyet">
+            Kadın: <input type="radio" name="cinsiyet">
+        </p>
+        <p>
+            Email: <input type="email" name="email">
+        </p>
+        <p>
+            Şifre: <input type="password" name="sifre">
+        </p>
+        <p>
+            Renk: <input type="color" name="renk">
+        </p>
+        <p>
+            Hobiler: <br> 
+            Spor <input type="checkbox" name="hobi">
+            Sinema <input type="checkbox" name="hobi">
+            Kitap <input type="checkbox" name="hobi">
+        </p>
+        <p>
+            İl: <br>
+            <select name="sehir" id="">
+                <option value="">Kayseri</option>
+                <option value="">Ankara</option>
+                <option value="">İzmir</option>
+            </select>
+        </p>
+        <p>
+            Bitirdiğiniz Okullar: <br>
+            <select multiple name="okul" id="">
+                <option value="">Lise</option>
+                <option value="">Önlisans</option>
+                <option value="">Lisans</option>
+            </select>
+        </p>
+        <p>
+            Sayı: <input type="number" name="" id="" min="5" step="4">
+        </p>
+
+        <p>
+            Tarih: <input type="date" name="" id="">
+        </p>
+
+        <p>
+            Puan: <input type="range" name="" id="" min="1" max="5">
+        </p>
+
+
+        <input type="submit" value="Kaydet">
+        <input type="reset" value="Temizle">
+    </form>
+</body>
+</html>
